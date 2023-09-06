@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tabla de Usuarios</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" type='text/javascript'/></script>
+    <script src="traer.js"></script>
+
+</head>
+<body>
+    <button id="obtener">Obtener datos de usuarios</button>
+    <table id="tabla">
+       <thead id="encabezado"> </thead>
+       <tbody id="myTable"></tbody>
+    </table>
+    <button id="mostrarForm">Añadir nuevo usuario</button>
+<form id="formulario" hidden="true">
+    <fieldset>
+        <label for="fname"><strong>Nombre: *</strong></label><br />
+        <input type="text" id="fname" name="fname" required/><br>
+        <label for="lname"><strong>Apellidos: *</strong></label><br />
+        <input type="text" id="lname" name="lname" required/><br/>
+        <label for="edad"><strong>Edad: *</strong></label><br />
+        <input type="text" id="edad" name="edad"  pattern="[0-9]{2}" required/><br>
+        <label for="phone"><strong>Telefono: *</strong></label><br/>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required/><br/>
+        <button type="button" id="Agregar">Agregar</button>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+
+    button{
+      display:block;
+      margin:auto;
+      padding:10px;
+      background-color: #DEE6EC;
+    }
+    table{
+      margin-top:5%;
+      margin-bottom:5%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      padding: 15px;
+    }
+    th {
+      background-color: dodgerblue;
+      color: white;
+    }
+    td {
+      background-color: #EBF5FB;
+      color: black;
+    }
+fieldset {
+  border-radius: 5px;
+  background-color: #EBF5FB;
+  padding: 20px;
+  margin:5% 25% 5% 25%;
+}
+input[type=text],input[type=email],input[type=tel], select, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
